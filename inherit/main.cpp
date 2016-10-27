@@ -4,6 +4,9 @@
 class Shape
 {
 public:
+
+    double mY;
+
     double x()
     {
         return 0;
@@ -11,7 +14,7 @@ public:
 
     void setX(double x)
     {
-        return mX = x;
+        return mX;
     }
 
     double y()
@@ -58,7 +61,7 @@ class Rectangle
 
 void printName(const Shape &s)
 {
-    std::cout << s.name()
+    std::cout << s.name();
 }
 
 using namespace std;
